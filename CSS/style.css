@@ -1,0 +1,17 @@
+.title2{
+    /* Selector property value */
+    background-color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+    font-size: x-large;
+    border: 2px solid black;
+    background-color: rgb(27, 78, 186);
+}
+*{
+    margin: 0;
+}
