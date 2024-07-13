@@ -15,3 +15,29 @@ h4{
 *{
     margin: 0;
 }
+
+#head-1{
+    background-color: aqua;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head-2{
+    background-color: rgb(4, 157, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div > p{
+    background-color: rgb(43, 174, 255);
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bt{
+    size: 5px;
+    background-color: rgb(15, 179, 244);
+    font-family: monospace;
+    color: azure;
+    border-radius: 3px;
+    border-color: navy;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 5px;
+}
