@@ -41,3 +41,29 @@ div > p{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 5px;
 }
+.box{
+    border: 1px solid black;
+}
+.box-content{
+    padding: 60px;
+    background-color: aquamarine;
+    border: 20px soldi black;
+    margin: 50px;
+}
+
+label{
+    background-color: azure;
+    font-family: monospace;
+}
+
+fieldset{
+    background-color: beige;
+    bottom: 2px solid blue;
+}
+
+.p1{
+    border: 2px solid black;
+    background-color: white;
+    font-family: monospace;
+    font-size: larger;
+}
