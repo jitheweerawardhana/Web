@@ -121,9 +121,23 @@ input{
 
 footer{
     background-color: #7D8077;
+    padding: 10px;
 }
 
-.footer1{
+.footerItem{
+    display: inline block;
     background-color: #A27172;
     border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+}
+.footerItem2 {
+    margin-left: 130px;
+}
+  
+.footerItem3 {
+    margin-left: 130px;
 }
