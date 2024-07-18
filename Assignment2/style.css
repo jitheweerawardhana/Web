@@ -110,6 +110,7 @@ input{
 .form_button{
     margin-left: 0px;
     margin-top: 10px;
+    margin-bottom: 50px;
     padding: 13px 30px;
     background-color: #D9D9D9;
     border: 2px solid rgb(0, 0, 0);
@@ -133,11 +134,14 @@ footer{
     border-radius: 5px;
     width: 200px;
     color: white;
+    margin-left: 150px;
 }
 .footerItem2 {
-    margin-left: 130px;
+    margin-left: 600px;
+    margin-top: -250px;
 }
   
 .footerItem3 {
-    margin-left: 130px;
+    margin-left: 1100px;
+    margin-top: -250px;
 }
