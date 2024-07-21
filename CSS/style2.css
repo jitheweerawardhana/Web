@@ -1,0 +1,10 @@
+.static{
+    /* position: static; */
+    position: relative;
+    /* background-color: aqua; */
+    top: 50px;
+    left: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+}
