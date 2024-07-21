@@ -67,3 +67,11 @@ fieldset{
     font-family: monospace;
     font-size: larger;
 }
+
+.new{
+    color: blueviolet !important;
+}
+
+#new1{
+    color: brown;
+}
