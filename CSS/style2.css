@@ -1,10 +1,86 @@
-.static{
-    /* position: static; */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainDiv{
     position: relative;
-    /* background-color: aqua; */
-    top: 50px;
-    left: 50px;
-    border: 2px solid black;
-    display: inline-block;
-    padding: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.div1{
+    background-color: rgb(199, 225, 255);
+    position: relative;
+    height: 350px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+h2{
+    position: absolute;
+    left: 40px;
+    top: -40px;
+}
+
+.div2{
+    background-color: rgb(206, 138, 255);
+    position: absolute;
+    height: 250px;
+    width: 550px;
+    border-radius: 20px;
+    bottom: 0;
+}
+
+h1{
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.head1{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    left: 40px;
+}
+.head2{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    left: 40px;
+}
+
+.head3{
+    position: absolute;
+    font-size: 25px;
+    top: 80px;
+    left: 40px;
+}
+.head4{
+    position: absolute;
+    font-size: 25px;
+    top: 150px;
+    left: 40px;
+}
+.hh{
+    margin-top: 20px;
+}
+
+.playButton{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+.playButton1{
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+
+.circle1{
+    position: absolute;
+    left: 30px;
+    top: 35px;
 }
