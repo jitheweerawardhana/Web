@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    background-image: url(img3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+}
+
+.bar{
+  z-index: 100;
+  background-color: #bd9292;
+  height: 60px;
+  position: sticky;
+  top: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.youtubeSign{
+    position: sticky;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.fa-youtube{
+    color: rgb(255, 255, 255);
+}
+
+.fa-youtube:hover {
+    cursor: pointer;
+    scale: 1.1;
+    color: #ff0000;
+    border-radius: 8px;
+  }
+
+.div1{
+    position: relative;
+    height: 1647px;
+    width: 315px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    opacity: 0.1;
+}
+
+.div2{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.button1{
+    background-color: #BD9292;
+    position: absolute;
+    margin: 10px;
+    padding: 20px 80px;
+    border-radius: 10px;
+    border-color: none;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.button2{
+    background-color: #BD9292;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    margin: 10px;
+    padding: 20px 85px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button3{
+    background-color: #BD9292;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    margin: 10px;
+    padding: 20px 85px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button4{
+    background-color: #BD9292;
+    position: absolute;
+    left: 10px;
+    top: 240px;
+    color: white;
+    margin: 10px;
+    padding: 20px 80px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #bf8181;
+    scale: 1.01;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 0;
+    border: 2px solid white;
+}
+
