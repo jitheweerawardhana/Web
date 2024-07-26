@@ -1,25 +1,27 @@
+*{margin: 0;
+ padding: 0;}
+
 
 .body{
-    background-image: url(5153829.jpg);
-    background-size: cover;
+    background-image: url(w1.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .h2{
     text-align: center;
 }
-form{
-    margin-top: 40px;
-    margin-left:450px;
+.form{
+    margin-top: 50px;
+    margin: auto;
     border: 2px solid #000000;
     border-radius: 10px;
-    margin-right: 550px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.121);
+    width: 400px;
+    height: 500px;
+    position: relative;
 }
 
-.form1{
-    display: flex;
-}
 input{
     border: 2px solid black;
     border-radius: 5px;
@@ -28,17 +30,15 @@ input{
     font-size: 16px;
     outline: none;
     margin-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 650px;
     text-align: center;
+    opacity: 0.5;
+    position: absolute;
 }
 
 .input-style:focus{
   border-color: #007bff;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-
-.input1{ 
-    margin-top: 30px;
 }
 
 button{
