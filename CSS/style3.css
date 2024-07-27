@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    box-shadow: 2px 2px 10px 2px;
+    border-radius: 10px;
+    width: 380px;
+    height: 420px;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+
+.div:hover{
+    scale: 1.1;
+    box-shadow: 2px 2px 50px 2px rgb(236, 95, 142);
+}
+
+.img{
+    height: 214px;
+    border-radius: 10px 10px 0 0;
+}
+
+h1{
+    color: blue;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(29, 128, 242);
+    font-family: monospace;
+}
+
+h2{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 118px;
+    top: 70px;
+    font-size: 75px;
+    text-shadow: 5px 2px 10px black;
+}
+h2:hover{
+    color: rgb(201, 127, 14);
+    scale: 1.1;
+}
+
+.fa-facebook{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: rgb(4, 79, 255);
+}
+.fa-facebook:hover{
+    color: rgb(0, 0, 0);
+    scale: 1.1;
+}
+
+h3{
+    font-size: 35px;
+}
+
+.fa-envelope{
+    position: absolute;
+    left: 75px;
+    bottom: 20px;
+    color: black;
+}
+.fa-envelope:hover{
+    color: rgb(255, 162, 0);
+    scale: 1.1;
+}
+
+.fa-whatsapp{
+    position: absolute;
+    left: 135px;
+    bottom: 20px;
+    color: rgb(30, 232, 30);
+}
+.fa-whatsapp:hover{
+    color: aqua;
+    scale: 1.1;
+}
+
+h4{
+    position: absolute;
+    left: 200px;
+    bottom: 30px;
+    font-size: 20px;
+    color: orangered;
+    font-family: monospace;
+    font-weight: bold;
+}
+h4:hover{
+    color: rgb(0, 255, 42);
+    scale: 1.1;
+}
+.fa-arrow-right{
+    position: absolute;
+    left: 140px;
+    color: orangered;
+}
+.fa-arrow-right:hover{
+    color: rgb(0, 255, 42);
+    scale: 1.1;
+}
