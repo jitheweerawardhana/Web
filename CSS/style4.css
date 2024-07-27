@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    font-size: 40px;
+    margin-bottom: 3px;
+    margin-top: 20px;
+    
+}
+
+ul{
+    font-size: 40px;
+    margin-left: 40px;}
+
+.div1{
+    height: 1000px;
+}
+li{
+    margin-bottom: 20px;
+}
