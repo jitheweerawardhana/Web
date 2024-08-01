@@ -3,92 +3,139 @@
     padding: 0;
 }
 
+body{
+    font-family: inter;
+}
+
 .div1{ 
     height: 500px;
     width: 800px;
-    border: 2px solid black;
+    border-radius: 10px;
     position: absolute;
     left: 50px;
     top: 50px;
+    box-shadow: 0px 0px 36px 0px;
 }
 
 .div2{
     position: absolute;
     left: 50px;
-    top: 50px;
+    top: 30px;
 }
 
 h1{
-    font-family: monospace;
     color: black;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 h3{
-    font-family: monospace;
-    color: rgba(120, 119, 119, 0.692);
-    margin-top: 50px;
+    color: rgba(168, 168, 168, 0.692);
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
 }
 
 .div3{
-    margin-top: 20px;
-    font-family: monospace;
     width: 300px;
+    padding: 10px;
+    position: relative;
+    left: -20px;
 }
 
-img{
+.img1{
     height: 40px;
 }
 
 .fa-circle{
-    color: orange;
-    position: absolute;
+    color: rgb(255, 111, 0);
+    position: relative;
     left: 6px;
-    top: 145px;
+    top: -39px;
 }
 
 .h2New{
-    position: absolute;
+    position: relative;
+    font-size: large;
     left: 70px;
-    top: 120px;
+    top: -75px;
 }
-p{
+.p1{
     color: rgb(0, 168, 28);
-    position: absolute;
+    position: relative;
     padding: 3px 5px;
     font-size: 10px;
     border-radius: 10px;
     background-color: rgba(0, 255, 0, 0.356);
     font-weight: bold;
-    left:70px;
-    top: 145px;
+    left:68px;
+    top: -75px;
+    display: inline-block;
 }
+
 .div4{
-    margin-top: 20px;
-    font-family: monospace;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    left: -20px;
+    top: -45px;
+}
+
+.div5{
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    left: -20px;
+    top: -90px;
+}
+.div6{
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    left: -20px;
+    top: -135px;
+}
+
+.div7{
+    position: absolute;
+    left: 500px;
+    top: 40px;
     width: 300px;
 }
-.fa-circle{
-    color: orange;
+
+.p2{
+    color: rgb(255, 111, 0);
+    font-weight: bold;
     position: absolute;
-    left: 6px;
-    top: 145px;
+    left: 180px;
+    font-size: large;
 }
 
-.h2New{
+.img2{
+    height: 250px;
+    width: 350px;
     position: absolute;
-    left: 70px;
-    top: 120px;
+    top: 50px;
+    right: 20px;
 }
-p{
-    color: rgb(0, 168, 28);
+
+.p3{
     position: absolute;
-    padding: 3px 5px;
-    font-size: 10px;
-    border-radius: 10px;
-    background-color: rgba(0, 255, 0, 0.356);
+    font-size: large;
+    font-weight: 400;
+    top: 320px;
+}
+.p4{
+    position: absolute;
+    font-size: large;
     font-weight: bold;
-    left:70px;
-    top: 145px;
+    top: 380px;
+    background-color: rgb(246, 108, 2);
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    top: 360px;
+    left: 40px;
+}
+.fa-circle-plus{
+    margin-right: 15px;
 }
