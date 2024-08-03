@@ -1,0 +1,26 @@
+.item{
+    width: 150px;
+    background-color: aquamarine;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid black;
+
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
