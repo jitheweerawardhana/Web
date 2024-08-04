@@ -1,0 +1,10 @@
+.div-1{
+    background-color: blue;
+    height: 80px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
