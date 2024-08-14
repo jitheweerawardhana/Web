@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
@@ -80,6 +79,42 @@ input{
 
 .button-sign{
     width: 370px;
-    height: 40px;
+    height: 45px;
     margin: 10px;
+}
+
+.sign{
+    margin-top: 50px;
+    background-color: #FF451C;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.google{
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: white;
+    color: #606060;
+    border: 1px solid #606060;
+    margin-top: 30px;
+}
+
+.G-img{
+    height: 18px;
+    margin-right: 15px;
+}
+
+hr{
+    width: 360px;
+    margin-left: 95px;
+}
+p{
+    position: absolute;
+    background-color: white;
+    top: 500px;
+    left: 270px;
+    padding: 5px;
 }
