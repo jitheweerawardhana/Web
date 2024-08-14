@@ -58,3 +58,26 @@ input{
 .input-1{
     margin-top: 70px;
 }
+
+.input-checkbox{
+    position: relative;
+    left: -120px;
+}
+
+.checkbox-label{
+    position: relative;
+    left: -290px;
+    top: -4px;
+}
+
+.button-FGP{
+    position: absolute;
+    left: 360px;
+    top: 360px;
+    background-color: white;
+    border: none;
+}
+
+.button-sign{
+    
+}
