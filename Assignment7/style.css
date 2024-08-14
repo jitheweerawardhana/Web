@@ -79,5 +79,7 @@ input{
 }
 
 .button-sign{
-    
+    width: 370px;
+    height: 40px;
+    margin: 10px;
 }
