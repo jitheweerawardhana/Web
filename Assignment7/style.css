@@ -305,7 +305,8 @@ p{
     }
     p{
         position: absolute;
-        background-color: white;
+        background-color: transparent;
+        color: white;
         top: 500px;
         left: 270px;
         padding: 5px;
