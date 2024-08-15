@@ -212,7 +212,7 @@ p{
 @media only screen and (min-width:10px) and (max-width:426px) {
     .card-in{
         background-color: transparent;
-        height: 100%;
+        height: 100vh;
         position: absolute;
         width: 100%;
         text-align: center;
@@ -229,19 +229,83 @@ p{
         margin-left: 190px;
     }
     h2{
-        color: #FF451C;
-        font-size: 20px;
+        color: #ffffff;
+        font-size: 15px;
         margin-top: 10px;
     }
     
     input{
         border: none;
-        width: 350px;
-        height: 20px ;
-        background-color: #F1F1F1;
+        width: 250px;
+        height: 15px ;
+        background-color: rgba(255, 255, 255, 0.233);
         border-radius: 10px;
         padding: 1em;
         margin: 10px;
+    }
+    .input-1{
+        margin-top: 50px;
+    }
+    
+    .input-checkbox{
+        position: relative;
+        left: -120px;
+    }
+    
+    .checkbox-label{
+        position: relative;
+        left: -290px;
+        top: -4px;
+    }
+    
+    .button-FGP{
+        position: absolute;
+        left: 360px;
+        top: 360px;
+        background-color: white;
+        border: none;
+    }
+    
+    .button-sign{
+        width: 370px;
+        height: 45px;
+        margin: 10px;
+    }
+    
+    .sign{
+        margin-top: 50px;
+        background-color: #FF451C;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .google{
+        border-radius: 10px;
+        font-size: 15px;
+        background-color: white;
+        color: #606060;
+        border: 1px solid #606060;
+        margin-top: 30px;
+    }
+    
+    .G-img{
+        height: 18px;
+        margin-right: 15px;
+    }
+    
+    hr{
+        width: 360px;
+        margin-left: 95px;
+    }
+    p{
+        position: absolute;
+        background-color: white;
+        top: 500px;
+        left: 270px;
+        padding: 5px;
     }
 }
 
