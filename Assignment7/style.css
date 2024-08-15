@@ -256,6 +256,7 @@ p{
         position: relative;
         left: -290px;
         top: -4px;
+        color: white;
     }
     
     .button-FGP{
@@ -264,6 +265,7 @@ p{
         top: 360px;
         background-color: transparent;
         border: none;
+        
     }
     
     .button-sign{
