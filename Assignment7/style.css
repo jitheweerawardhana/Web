@@ -217,5 +217,31 @@ p{
         width: 100%;
         text-align: center;
     }
+    .img-1{
+        height: 70px;
+        margin-top:50px;
+        display: none;
+    }
+    .img-2{
+        display: block;
+        height: 50px;
+        margin-top:50px;
+        margin-left: 190px;
+    }
+    h2{
+        color: #FF451C;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    input{
+        border: none;
+        width: 350px;
+        height: 20px ;
+        background-color: #F1F1F1;
+        border-radius: 10px;
+        padding: 1em;
+        margin: 10px;
+    }
 }
 
