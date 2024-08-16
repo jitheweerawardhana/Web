@@ -342,6 +342,8 @@ a{
     hr{
         width: 320px;
         margin-left: 55px;
+        margin-right: 55px;
+        align-items: center;
     }
     p{
         position: absolute;
@@ -359,7 +361,7 @@ a{
         color: white;
     }
     .text span{
-        background-color: darkred;
+        background-color: rgb(26, 1, 1);
         color: white;
     }
 }
