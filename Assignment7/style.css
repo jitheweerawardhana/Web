@@ -103,6 +103,17 @@ hr{
     width: 360px;
     margin-left: 95px;
 }
+.text {
+    position: relative;
+    text-align: center;
+}
+
+.text span {
+    background-color: white;
+    padding: 0 10px;
+    position: relative;
+    top: -10px;
+}
 p{
     position: absolute;
     background-color: white;
@@ -346,6 +357,9 @@ a{
     }
     a{
         color: white;
+    }
+    .text span{
+        background-color: transparent;
     }
 }
 
