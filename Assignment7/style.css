@@ -359,7 +359,8 @@ a{
         color: white;
     }
     .text span{
-        background-color: transparent;
+        background-color: darkred;
+        color: white;
     }
 }
 
