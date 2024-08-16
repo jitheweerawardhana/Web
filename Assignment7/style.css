@@ -111,6 +111,16 @@ p{
     padding: 5px;
 }
 
+h5{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 @media only screen and (min-width:425px) and (max-width:768px) {
     .card-in{
         background-color: rgb(255, 255, 255);
@@ -216,6 +226,7 @@ p{
         position: absolute;
         width: 100%;
         text-align: center;
+        align-items: center;
     }
     .img-1{
         height: 70px;
@@ -238,10 +249,26 @@ p{
         border: none;
         width: 320px;
         height: 15px ;
-        background-color: rgba(255, 255, 255, 0.233);
+        background-color: rgba(255, 255, 255, 0.5);
         border-radius: 10px;
         padding: 1em;
         margin: 10px;
+    }
+
+    ::placeholder{
+        color: white;
+    }
+    input::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+        transition: all 0.2s ease;
+    }
+    
+    input:focus::placeholder {
+        transform: translateY(-10px);
+        font-size: 10px;
+        color: white;
+        padding-left: 5px;
+        border-radius: 5px;
     }
     .input-1{
         margin-top: 50px;
@@ -250,25 +277,27 @@ p{
     .input-checkbox{
         position: relative;
         left: -120px;
+        background-color: transparent;
+        vertical-align: middle;
     }
     
     .checkbox-label{
         position: relative;
-        left: -290px;
-        top: -4px;
+        left: -280px;
+        top: -7px;
         color: white;
+        font-size: 10px;
     }
     
     .button-FGP{
         position: absolute;
-        left: 360px;
-        top: 360px;
+        left: 300px;
+        top: 295px;
         background-color: transparent;
         border: none;
         color: white;
-
     }
-    
+
     .button-sign{
         width: 320px;
         height: 45px;
@@ -300,16 +329,23 @@ p{
     }
     
     hr{
-        width: 360px;
-        margin-left: 95px;
+        width: 320px;
+        margin-left: 55px;
     }
     p{
         position: absolute;
-        background-color: transparent;
+        background-color: rgb(34, 2, 2);
         color: white;
-        top: 500px;
-        left: 270px;
+        top: 433px;
+        left: 210px;
         padding: 5px;
+    }
+
+    h5{
+        color: white;
+    }
+    a{
+        color: white;
     }
 }
 
