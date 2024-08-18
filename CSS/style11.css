@@ -1,0 +1,68 @@
+body {
+    background-image: url(123.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Login form container */
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Input fields */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Login button */
+.login-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Link styling */
+.login-form a {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Add a heading or logo above the form */
+.login-form h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
