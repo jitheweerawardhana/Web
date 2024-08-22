@@ -7,25 +7,29 @@ body {
     margin: 0;
 }
 
-.light-bar {
-    width: 100%;
-    height: 150px;
-    background-color: rgb(83, 18, 18);
+.knight-rider {
     position: relative;
+    width: 400px;
+    height: 20px;
+    background-color: #2d0909;
+    border-radius: 10px;
     overflow: hidden;
 }
 
 .light {
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 100%;
-    background-color: rgb(153, 5, 5);
-    box-shadow: 0 0 20px 10px rgb(150, 4, 4);
-    animation: moveLight 2s infinite;
+    background-color: red;
+    border-radius: 10px;
+    animation: moveLight 1s infinite alternate;
 }
 
 @keyframes moveLight {
-    0% { right: -100px; }
-    50% { right: calc(100% - 100px); }
-    100% { right: -100px; }
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 50px);
+    }
 }
