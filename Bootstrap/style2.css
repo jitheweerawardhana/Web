@@ -1,0 +1,14 @@
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(46, 211, 230) !important;
+}
+
+.d-flex-form{
+    margin: 50px;
+}
+
+.form-1{
+    border: 2px solid rgb(77, 185, 228);
+    padding: 30px;
+    border-radius: 10px;
+}
