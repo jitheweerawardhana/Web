@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Java Script</h1>
+    <!-- Internol Script -->
+    <script>
+        console.log('Run internal Script')
+    </script>
+
+    <!-- External Script -->
+    <script src="index.js"></script>
+
+    <!-- java script data type
+
+      1. numbers = any number
+      2. String any string
+      3. boolean true or false
+      4. Arrays  
+      5. object -->
+    <br><br><br><br>
+    <button onclick="clickEvent()">Click me</button>
+
+    <br><br><br><br>
+    <input type="text" onchange="onChangeEvent()">
+
+    <div onmouseout="onMouseOutEvent()" onmouseover="onMouseOverEvent()" class="sample" id="mouseOver"></div>
+
+    <br><br><br><br>
+    <input type="text" onkeydown="onKeyDownEvent()" onkeyup="onKeyUpEvent()" onkeypress="onKeyPressEvent()" id="input">
+</body>
+
+</html>
