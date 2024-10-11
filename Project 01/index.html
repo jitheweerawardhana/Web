@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="header-container">
+            <div>
+            <img src="Logo.png" class="logo-img">
+            <h3>Student Management System</h3>
+            </div>
+            <form class="search-bar">
+                <input type="text" placeholder="Search"/>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <button class="add-student" onclick="openForm()">+ Add Student</button>
+    <div class="student-cards">
+        <div class="student-card">
+            <div class="img"><img src="2p.png" alt="Image" /></div>
+            <div class="student-info-part">
+                <div class="student-info">
+                <p><label>Student Name -</label> Kavindu Perera</p>
+                <p><label>Gender:</label> Male</p>
+                <p><label>DOB:</label> 03-04-2001</p>
+                <p><label>Address:</label> Kalutara</p>
+                <p><label>Contact:</label> 077-1234234</p>
+                <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="student-card">
+            <div class="img"><img src="1p.png" alt="Image" /></div>
+            <div class="student-info-part">
+                <div class="student-info">
+                <p><label>Student Name:</label> Kavindu Perera</p>
+                <p><label>Gender:</label> Male</p>
+                <p><label>DOB:</label> 03-04-2001</p>
+                <p><label>Address:</label> Kalutara</p>
+                <p><label>Contact:</label> 077-1234234</p>
+                <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="student-card">
+            <div class="img"><img src="2p.png" alt="Image" /></div>
+            <div class="student-info-part">
+                <div class="student-info">
+                <p><label>Student Name:</label> Kavindu Perera</p>
+                <p><label>Gender:</label> Male</p>
+                <p><label>DOB:</label> 03-04-2001</p>
+                <p><label>Address:</label> Kalutara</p>
+                <p><label>Contact:</label> 077-1234234</p>
+                <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Student Form Modal -->
+    <div class="modal" id="studentForm">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <h2>Add Student</h2>
+            <form action="/add-student" class="form-1" method="post">
+                <input type="text" id="name" name="name" required placeholder="Student Name"><br>
+                <input type="text" id="dob" name="dob" required placeholder="DOB"><br>
+                <input type="text" id="address" name="address" required placeholder="Address"><br>
+                <input type="tel" id="contact" name="contact" required placeholder="Contact"><br>
+
+                <button type="submit" class="submit-btn">Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
